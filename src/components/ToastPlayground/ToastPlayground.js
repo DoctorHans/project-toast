@@ -74,11 +74,8 @@ function ToastPlayground() {
 
         <div className={styles.row}>
           <div className={styles.label} />
-          <div
-            className={`${styles.inputWrapper} ${styles.radioWrapper}`}
-            onClick={() => setIsRendered(true)}
-          >
-            <Button>Pop Toast!</Button>
+          <div className={`${styles.inputWrapper} ${styles.radioWrapper}`}>
+            <Button onClick={() => setIsRendered(true)}>Pop Toast!</Button>
           </div>
         </div>
       </div>
